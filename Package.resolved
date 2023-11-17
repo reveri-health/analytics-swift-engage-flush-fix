@@ -1,25 +1,23 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "Segment",
-        "repositoryURL": "https://github.com/segmentio/analytics-swift.git",
-        "state": {
-          "branch": null,
-          "revision": "c8fd5fdf59299f00b3e4303a1b12a6d88893bf56",
-          "version": "1.4.7"
-        }
-      },
-      {
-        "package": "Sovran",
-        "repositoryURL": "https://github.com/segmentio/Sovran-Swift.git",
-        "state": {
-          "branch": null,
-          "revision": "64f3b5150c282a34af4578188dce2fd597e600e3",
-          "version": "1.1.0"
-        }
+  "pins" : [
+    {
+      "identity" : "analytics-swift-flush-fix",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/reveri-health/analytics-swift-flush-fix",
+      "state" : {
+        "branch" : "bsneed/operatingMode",
+        "revision" : "1e91157c204caef06e18086aa7f52e872fadf8da"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "sovran-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/segmentio/Sovran-Swift.git",
+      "state" : {
+        "revision" : "64f3b5150c282a34af4578188dce2fd597e600e3",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 2
 }
