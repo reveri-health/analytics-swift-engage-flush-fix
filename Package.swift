@@ -22,7 +22,7 @@ let package = Package(
         .package(
             name: "Segment",
             url: "https://github.com/reveri-health/analytics-swift-flush-fix",
-            branch: "main"
+            branch: "fix/write-async"
         )
     ],
     targets: [
