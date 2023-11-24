@@ -22,7 +22,7 @@ let package = Package(
         .package(
             name: "Segment",
             url: "https://github.com/reveri-health/analytics-swift-flush-fix",
-            branch: "main"
+            revision: "56b1c1978e361f3c7c10213b3cff0096071ec6c3"
         )
     ],
     targets: [
